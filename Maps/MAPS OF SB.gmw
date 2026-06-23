@@ -1,0 +1,204 @@
+﻿GLOBAL_MAPPER_SCRIPT VERSION="1.00" FILENAME="C:\Users\Hicham\Desktop\SIDI BENNOUR PROJECT\MAPS OF SB.gmw" \
+	 GM_VERSION="26.0.2.b121824" TIMESTAMP="2026-05-13T01:13:01Z" CODE_PAGE="UTF-8" TEMP_DIR="C:\Users\Hicham\AppData\Local\Temp\GlobalMapper\" \
+	 DEF_LAYER_AREA="range"
+SET_BG_COLOR COLOR="RGB(255,255,255)"
+UNLOAD_ALL
+IMPORT_WMS SOURCE_DESC="World Imagery" WMS_SERVER_URL="https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/WMTS" \
+	 WMS_SERVICE="WMTS" WMS_LAYER="World_Imagery" WMS_STYLE="" WMS_IS_TILED="YES" WMS_REFRESH_TIME="20160" \
+	 METADATA_URL="https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9" \
+	 LABEL_FIELD_FORCE_OVERWRITE="NO" LABEL_FORMAT_NUMBERS="YES" LABEL_PRECISION="-1" \
+	 LABEL_REMOVE_TRAILING_ZEROS="YES" LABEL_USE_SCIENTIFIC_NOTATION="NO" CODE_PAGE="1252" \
+	 BAND_RANGE="-32000.0,32000.0,ALL,0" CLIP_COLLAR="NONE" SAMPLING_METHOD="BICUBIC" \
+	 AUTO_CONTRAST="NO" CONTRAST_SHARED="NO" CONTRAST_MODE="NONE" TEXTURE_MAP="NO"
+IMPORT_WMS SOURCE_DESC="World Street Map" WMS_SERVER_URL="https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/WMTS" \
+	 WMS_SERVICE="WMTS" WMS_LAYER="World_Street_Map" WMS_STYLE="" WMS_IS_TILED="YES" \
+	 WMS_REFRESH_TIME="20160" METADATA_URL="https://www.arcgis.com/home/item.html?id=3b93337983e9436f8db950e38a8629af" \
+	 LABEL_FIELD_FORCE_OVERWRITE="NO" LABEL_FORMAT_NUMBERS="YES" LABEL_PRECISION="-1" \
+	 LABEL_REMOVE_TRAILING_ZEROS="YES" LABEL_USE_SCIENTIFIC_NOTATION="NO" CODE_PAGE="1252" \
+	 BAND_RANGE="-32000.0,32000.0,ALL,0" CLIP_COLLAR="NONE" SAMPLING_METHOD="BICUBIC" \
+	 AUTO_CONTRAST="NO" CONTRAST_SHARED="NO" CONTRAST_MODE="NONE" TEXTURE_MAP="NO"
+EMBED_OVERLAY DATA_SIZE="1085" FEATURE_TEMPLATE="NO" LAYER_DESC="range" ELEV_UNITS="METERS" \
+	 LABEL_FIELD_FORCE_OVERWRITE="NO" LABEL_FORMAT_NUMBERS="YES" LABEL_PRECISION="-1" \
+	 LABEL_REMOVE_TRAILING_ZEROS="YES" LABEL_USE_SCIENTIFIC_NOTATION="NO" CODE_PAGE="1252" \
+	 CLIP_COLLAR="NONE"
+MI0$!`!`1``"E`0``!@```*L!``!L`0``%P,``'T```"4`P```````!0```"4
+M`P``+````"P```#``P``#`````P```#,`P````````P```#,`P````````P`
+M``#,`P``<0```#T$````````/00`````````````````````````````````
+M```````````````````````````````````````````````````]!```````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````````````````
+M````````````````````````````````````````````````/00`````````
+M`````````#T$`````````````````````````````.0$```]!```````````
+M```]!```````````````````A0#I_0``_P``````````````````````````
+M`````````````````````')A;F=E`%!R;VIE8W1I;VX@("`@($U%4D-!5$]2
+M"D1A='5M("`@("`@("`@($1?5T=37S$Y.#1?34%*3U)?055824Q)05)97U-0
+M2$5210I:=6YI=',@("`@("`@("!-151%4@I5;FET<R`@("`@("`@("!-151%
+M4E,*6'-H:69T("`@("`@("`@,"XP,#`P,#`*67-H:69T("`@("`@("`@,"XP
+M,#`P,#`*4&%R86UE=&5R<PHQ+C`P,#`P,#`P,"`O*B!S8V%L92!F86-T;W(@
+M870@8V5N=')A;"!M97)I9&EA;@H*,"`P(#`N,#`P,#`@+RH@8V5N=')A;"!M
+M97)I9&EA;@H*,"`P(#`N,#`P,#`@+RH@;&%T:71U9&4@;V8@=&AE(&]R:6=I
+M;@H*,"XP,#`P("\J(&9A;'-E(&5A<W1I;F<@*&UE=&5R<RD*"C`N,#`P,"`O
+M*B!F86QS92!N;W)T:&EN9R`H;65T97)S*0``,C0N-#(W(&MM`#,V+C$U,B!S
+M<2!K;0`U+C`S."!K;0`W+C$W-R!K;0!%3D-,3U-%1%]!4D5!`$Q%3D=42`!0
+M15))345415(`4F%N9V4@4FEN9P!724142`!^,'XU,S0X-S8Q-S!^,"XP,#!^
+M,'XP?C$V-S<W,C$U?BTQ``,```!````````@````````````````````````
+M````````````````````20````````!:````<0``F0``!``_`2H+."%4&`4`
+M```>DL1+=WPLP5=[8&A"6$U!%/"30`R_+,%7>V!H0EA-013PDT`,ORS!%AAO
+M5_)C34$>DL1+=WPLP188;U?R8TU!'I+$2W=\+,%7>V!H0EA-01``````#,X#
+%:@``````
+`
+end
+
+IMPORT_OSM_TILE LAT_LON_BOUNDS="-180.00000000,-60.00000000,180.00000000,60.00000000" \
+	 OSM_BASE_URL="http://data.bluemarblegeo.com/datasets/SRTM_30m/" OSM_DESC="SRTM Worldwide Elevation Data (1-arc-second Resolution, SRTM Plus V3)" \
+	 OSM_FILE_EXT="gmg" OSM_NUM_ZOOM_LEVELS="11" TILE_SIZE="1024" SOURCE_TYPE="OSM" METADATA_URL="https://lpdaac.usgs.gov/products/srtmgl1nv003/" \
+	 LABEL_FIELD_FORCE_OVERWRITE="NO" LABEL_FORMAT_NUMBERS="YES" LABEL_PRECISION="-1" \
+	 LABEL_REMOVE_TRAILING_ZEROS="YES" LABEL_USE_SCIENTIFIC_NOTATION="NO" CODE_PAGE="1252" \
+	 HIDDEN="YES" BAND_RANGE="78.0,396.0,ALL,0" CLIP_COLLAR="NONE" SAMPLING_METHOD="BILINEAR" \
+	 ELEV_UNITS="METERS"
+DEFINE_PROJ PROJ_NAME="MERCAT_GOOGLE_MAPS_SPHERE_RADIUS_6378137"
+Projection     MERCATOR
+Datum          D_WGS_1984_MAJOR_AUXILIARY_SPHERE
+Zunits         NO
+Units          METERS
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+1.000000000 /* scale factor at central meridian
+0 0 0.00000 /* central meridian
+0 0 0.00000 /* latitude of the origin
+0.0000 /* false easting (meters)
+0.0000 /* false northing (meters)
+END_DEFINE_PROJ
+LOAD_PROJECTION PROJ_NAME="MERCAT_GOOGLE_MAPS_SPHERE_RADIUS_6378137"
+SET_VIEW GLOBAL_BOUNDS="-951311.697,3845536.387379,-927225.118698,3852381.569293"
+SET_VERT_DISP_OPTS SHADER_NAME="Atlas Shader" AMBIENT_LIGHT_LEVEL="0" VERT_EXAG="3" \
+	 LIGHT_ALTITUDE="45" LIGHT_AZIMUTH="45" LIGHT_NUM_SOURCES="1" LIGHT_BLENDING_ALGORITHM="0" \
+	 SLOPE_ALGORITHM="0" ENABLE_HILL_SHADING="YES" SHADE_DARKNESS="0" SHADE_HIGHLIGHT="0" \
+	 ENABLE_WATER="NO" WATER_ALPHA="128" WATER_LEVEL="0" WATER_COLOR="RGB(0,0,255)"
+SET_SHADER_OPTS HSV="HSV=0.000000,1.000000,1.000000,360.000000"
+
+/************ DEFINE MAP LAYOUT *************/
+MAP_LAYOUT
+ElevLegendBgColor=16777215
+ElevLegendTranslucency=384
+ElevLegendFont=~0~534799372~0.000~0~0~16777215~-1
+ElevLegendVisible=1
+ElevLegendDisplayType=1
+ElevLegendDisplayUnits=1
+ElevLegendDisplayUnitsStr=
+ElevLegendCustomRangeMin=0
+ElevLegendCustomRangeMax=0
+ElevLegendRangeType=0
+ElevLegendTitle=
+ElevLegendSlopePercent=0
+
+DEFINE_PROJ_ELEV_LEGEND
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+0.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+0.000000000 /* vert offset
+0.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+100.000000000 /* size value
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+1.000000000 /* always on top
+0.000000000 /* shrink to fit
+END_DEFINE_PROJ
+
+MapLegendType=0
+MapLegendBgColor=16776959
+MapLegendBorderStyle=0,2097152,0.0
+MapLegendTranslucency=512
+MapLegendFont=~0~534799368~0.000~0~0~16777215~-1
+MapLegendFooterFont=~0~534799372~0.000~0~0~16777215~-1
+MapLegendHeaderFont=~0~534799372~0.000~0~0~16777215~-1
+MapLegendHeader=
+MapLegendFooter=
+MapLegendNumColumns=1
+MapLegendLabelAttr=
+MapLegendUseNaturalSort=0
+MapLegendUseGroups=0
+
+DEFINE_PROJ_MAP_LEGEND
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+1.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+0.000000000 /* vert offset
+1.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+0.000000000 /* size value
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+1.000000000 /* always on top
+1.000000000 /* shrink to fit
+END_DEFINE_PROJ
+
+NorthArrowEnabled=0
+NorthArrowSymbol=
+NorthArrowSymbolScale=1.000000
+NorthArrowTranslucency=384
+
+DEFINE_PROJ_NORTH_ARROW
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+1.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+0.000000000 /* vert offset
+0.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+100.000000000 /* size value
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+1.000000000 /* always on top
+0.000000000 /* shrink to fit
+END_DEFINE_PROJ
+
+ScaleBarBgColor=16777215
+ScaleBarTranslucency=384
+ScaleBarFont=~0~534799372~0.000~0~0~16777215~-1
+ScaleVisible=1
+
+DEFINE_PROJ_SCALE
+Projection     Fixed Screen Position
+Datum          D_ADINDAN
+Zunits         NO
+Units          RADIAN
+Xshift         0.000000
+Yshift         0.000000
+Parameters
+0.000000000 /* horz offset
+0.000000000 /* horz offset type (0 - left, 1 - right, 2 - center)
+0.000000000 /* horz offset value type (0 - inches, 1 - % width, 2 - deg lon)
+0.000000000 /* vert offset
+1.000000000 /* vert offset type (0 - top, 1 - bottom, 2 - center)
+0.000000000 /* vert offset value type (0 - inches, 1 - % width, 2 - deg lat)
+0.000000000 /* size value
+2.000000000 /* size value type (0 - % width, 1 - % height, 2 - pixel)
+1.000000000 /* always on top
+0.000000000 /* shrink to fit
+END_DEFINE_PROJ
+
+GridDisplayType=0
+GridDisplayShowAll=0
+GridSpacingLatLon=0.00000000000000000
+GridSpacingProjected=0.00000000000000000
+END_MAP_LAYOUT
