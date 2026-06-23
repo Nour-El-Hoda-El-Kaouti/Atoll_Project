@@ -195,6 +195,4 @@ La carte finale montre l'intégralité de la zone urbaine couverte avec un signa
 
 ---
 
-## 📝 Licence
-
 Projet académique — Université Hassan 1er, Settat, Maroc. Tous droits réservés aux auteurs.
