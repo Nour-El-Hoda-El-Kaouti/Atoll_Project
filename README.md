@@ -1,12 +1,5 @@
 # 📡 Dimensionnement et Planification d'un Réseau GSM 900 sous Atoll
 
-> **Projet académique** — Université Hassan 1er, Faculté des Sciences et Techniques de Settat  
-> Filière : Ingénierie des Réseaux Informatiques et Systèmes de Télécommunication Intelligents  
-> Année universitaire : 2025–2026
-
-**Réalisé par :** Nour El Hoda El Kaouti & Hicham Fouah  
-**Encadré par :** Pr. Hajami
-
 ---
 
 ## 📋 Description du Projet
